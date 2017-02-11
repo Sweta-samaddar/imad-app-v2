@@ -7,7 +7,7 @@ txt.innerHTML="new alue ";
 var img=document.getElementById('img');
 
 var move=0;
-moveleft()
+function moveleft()
 {
     move=move+10;
     img.style.marginLeft=move+'px';
